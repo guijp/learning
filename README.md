@@ -1,4 +1,3 @@
-# Study
+# Learning
 
-Notes and projects for some of the courses that I'm taking.
-# learning
+Notes for courses and tutorials that I've taken.
