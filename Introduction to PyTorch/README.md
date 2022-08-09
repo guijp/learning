@@ -1,5 +1,7 @@
 # [Introduction to PyTorch](https://pytorch.org/tutorials/beginner/basics/intro.html)
 
+- **Status**: Done
+
 - [Tensors Basics](01_Tensors_Basics.ipynb)
 - [Datasets and DataLoaders](02_Datasets_and_DataLoaders.ipynb)
 - [Neural Networks](03_Neural_Networks.ipynb)
