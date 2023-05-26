@@ -10,7 +10,7 @@
 - Some tags are self-contained (e.g. \<img>) and some are not (e.g. \<div> \</div>)
 
 ## Important Tags
-- <div> content </div> : division
+- \<div> content \</div> : division
     - block-level
     - divides content into different sections
     - by itself, there's no visual different on the webpage. 
@@ -28,7 +28,7 @@
     - block-level
     - adds an image to the webpage. The location of the image will be in the 'src' property
 
-- \<a href=""> content </a>: anchor
+- \<a href=""> content \</a>: anchor
     - inline
     - used to turn 'content' into a link to (1) internal page, (2) external page, (3) file, (4) other elements in the same page
     - you can use attribute target="_black" to open the link in a new page
@@ -38,14 +38,14 @@
     - \<li> item 2 \</li>
 - \</ul> : unordered lists
     - block-level
-    - lists items inside \<li> </li> without numbering them
+    - lists items inside \<li> \</li> without numbering them
 
 - \<ol> 
     - \<li> item 1 \</li>
     - \<li> item 2 \</li>
 - \</ol> : ordered lists
     - block-level
-    - lists items inside \<li> </li> and adds the number of each item
+    - lists items inside \<li> \</li> and adds the number of each item
 
 - \<dl> 
     - \<dt> term 1 \</dt>
@@ -54,12 +54,12 @@
     - \<dd> definition 2 \</dd>
 - \</dl> : definition list
     - block-level
-    - lists terms inside <dt> and, below, their definitions <dd>
+    - lists terms inside \<dt> and, below, their definitions \<dd>
 
-- <hr> : horizontal rule
+- \<hr> : horizontal rule
     - adds a horizontal line
 
-- <br> : break
+- \<br> : break
     - adds a line break
 
 - \<b> content \</b>: bold
@@ -76,5 +76,5 @@
 
 ## Pro-Tips
 - Indentation is not functionally necessary, but it should be done to increase readability
-- Although you can style your page with CSS, you should still use proper tags (e.g. \<h1>), because search engine crawlers use this information to rank your website
+- Although you can style your page with CSS, you should still use proper tags (e.g. \\<h1>), because search engine crawlers use this information to rank your website
 - When a style property is not explicit via CSS, the browsers will use their default styling options for each tag (e.g. \<h1>). They don't change much 
