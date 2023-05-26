@@ -76,5 +76,5 @@
 
 ## Pro-Tips
 - Indentation is not functionally necessary, but it should be done to increase readability
-- Although you can style your page with CSS, you should still use proper tags (e.g. \\<h1>), because search engine crawlers use this information to rank your website
+- Although you can style your page with CSS, you should still use proper tags (e.g. \<h1>), because search engine crawlers use this information to rank your website
 - When a style property is not explicit via CSS, the browsers will use their default styling options for each tag (e.g. \<h1>). They don't change much 
