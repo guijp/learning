@@ -62,13 +62,31 @@
 - \<br> : break
     - adds a line break
 
-- \<b> content \</b>: bold
-    - inline
-    - makes content bold
+## CSS
+Used to add style to your raw HTML content (e.g. make a sentence red)
+There are 3 ways to modify the style of HTML element:
+- 1. By using the "style" property inside an HTML tag
+- - not ideal, because if you have 100 HTML elements that you want in a different color, you need to add these attributes one by one
 
-- \<em> content \</em>: emphasis
-    - inline
-    - makes content italic
+- 2. By defining the styles between \<style> \</style> tags
+- - not ideal, because if you have 5 pages with shared styles, you will need to add these \<style> \</style> tags to each one
+
+- 3. By linking a CSS file to your HTML code inside the \<head> \</head> tag
+- - good, because it keeps your styling decision separate to your content structure. Also, you can affect multiple elements and pages at the same time
+
+## Javscript
+Used to add functionalities (e.g. when you click a button, show this hidden text)
+There are 3 ways to add Javscript to your HTML code:
+- 1. By using inline properties (e.g. \<p onclick="console.log(hi)> Click Me \</p>)
+- - not ideal, because it's harder to debug and it's not scalable
+
+- 2. By using \<script> \</script> tags:
+- - it should usually be at the bottom of the HTML page, because it will wait for the content to be loaded before running the code
+- - not ideal, because if multiple pages use the same script, you will have to copy and paste, and debug them separately
+
+- 3. By using external files \<script src=""> \</script>
+- - it should usually be at the bottom of the HTML page, because it will wait for the content to be loaded before running the code
+- - good, because it separates the script from the HTML structure, making it easier to debug
 
 ## Important Properties
 - id: used to uniquely identify elements
