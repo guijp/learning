@@ -1,0 +1,26 @@
+body {
+    background-color: darkgreen;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+#internal-links {
+    text-align: center;
+}
