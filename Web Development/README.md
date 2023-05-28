@@ -1,3 +1,3 @@
 # Web Development
 
-- [Basic HTML](/Basic%20HTML/README.md)
+- [Basic HTML](/Web%20Development/Basic%20HTML/README.md)
